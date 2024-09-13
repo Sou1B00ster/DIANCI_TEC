@@ -1,0 +1,793 @@
+C251 COMPILER V5.60.0,  SEEKFREE                                                           10/09/24  01:11:01  PAGE 1   
+
+
+C251 COMPILER V5.60.0, COMPILATION OF MODULE SEEKFREE
+OBJECT MODULE PLACED IN D:\study\smartcar\重构代码\STC32F_Sou1B00ster\STC32F-master\Seekfree_STC32F12K_Opensource_Library\Project\MDK\SEEKFREE.OBJ
+COMPILER INVOKED BY: D:\mydocument\keil5_c251\C251\BIN\C251.EXE D:\study\smartcar\重构代码\STC32F_Sou1B00ster\STC32F
+                    --master\Seekfree_STC32F12K_Opensource_Library\Project\MDK\SEEKFREE.uvproj
+
+stmt  level    source
+
+    1          <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+*** ERROR C25 IN LINE 1 OF D:\study\smartcar\重构代码\STC32F_Sou1B00ster\STC32F-master\Seekfree_STC32F12K_Opensource
+             -_Library\Project\MDK\SEEKFREE.uvproj: syntax error near '<'
+*** ERROR C142 IN LINE 1 OF D:\study\smartcar\重构代码\STC32F_Sou1B00ster\STC32F-master\Seekfree_STC32F12K_Opensourc
+             -e_Library\Project\MDK\SEEKFREE.uvproj: illegal initialization
+*** ERROR C25 IN LINE 1 OF D:\study\smartcar\重构代码\STC32F_Sou1B00ster\STC32F-master\Seekfree_STC32F12K_Opensource
+             -_Library\Project\MDK\SEEKFREE.uvproj: syntax error near 'encoding'
+*** ERROR C142 IN LINE 1 OF D:\study\smartcar\重构代码\STC32F_Sou1B00ster\STC32F-master\Seekfree_STC32F12K_Opensourc
+             -e_Library\Project\MDK\SEEKFREE.uvproj: illegal initialization
+*** ERROR C25 IN LINE 1 OF D:\study\smartcar\重构代码\STC32F_Sou1B00ster\STC32F-master\Seekfree_STC32F12K_Opensource
+             -_Library\Project\MDK\SEEKFREE.uvproj: syntax error near 'standalone'
+*** ERROR C142 IN LINE 1 OF D:\study\smartcar\重构代码\STC32F_Sou1B00ster\STC32F-master\Seekfree_STC32F12K_Opensourc
+             -e_Library\Project\MDK\SEEKFREE.uvproj: illegal initialization
+*** ERROR C25 IN LINE 1 OF D:\study\smartcar\重构代码\STC32F_Sou1B00ster\STC32F-master\Seekfree_STC32F12K_Opensource
+             -_Library\Project\MDK\SEEKFREE.uvproj: syntax error near '>'
+    2          <Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="project_pro
+             -j.xsd">
+*** ERROR C67 IN LINE 2 OF D:\study\smartcar\重构代码\STC32F_Sou1B00ster\STC32F-master\Seekfree_STC32F12K_Opensource
+             -_Library\Project\MDK\SEEKFREE.uvproj: 'xsi': undefined identifier
+*** ERROR C25 IN LINE 2 OF D:\study\smartcar\重构代码\STC32F_Sou1B00ster\STC32F-master\Seekfree_STC32F12K_Opensource
+             -_Library\Project\MDK\SEEKFREE.uvproj: syntax error near 'xsi'
+*** WARNING C34 IN LINE 2 OF D:\study\smartcar\重构代码\STC32F_Sou1B00ster\STC32F-master\Seekfree_STC32F12K_Opensour
+             -ce_Library\Project\MDK\SEEKFREE.uvproj: 'xsi': missing declaration specifiers
+*** ERROR C42 IN LINE 2 OF D:\study\smartcar\重构代码\STC32F_Sou1B00ster\STC32F-master\Seekfree_STC32F12K_Opensource
+             -_Library\Project\MDK\SEEKFREE.uvproj: 'xsi': not in formal parameter list
+    3          
+    4            <SchemaVersion>1.1</SchemaVersion>
+    5          
+    6            <Header>### uVision Project, (C) Keil Software</Header>
+    7          
+    8            <Targets>
+    9              <Target>
+   10                <TargetName>STC32F12K</TargetName>
+   11                <ToolsetNumber>0x1</ToolsetNumber>
+   12                <ToolsetName>MCS-251</ToolsetName>
+   13                <uAC6>0</uAC6>
+   14                <TargetOption>
+   15                  <TargetCommonOption>
+   16                    <Device>STC32F12K64 Series</Device>
+   17                    <Vendor>STC</Vendor>
+   18                    <Cpu>IRAM(0-0x1FFF) XRAM(0x10000-0x10FFF) IROM(0xFF0000-0xFFFFFF) CLOCK(35000000)</Cpu>
+   19                    <FlashUtilSpec></FlashUtilSpec>
+   20                    <StartupFile>"LIB\STARTUP251.ASM" ("80251 Startup Code")</StartupFile>
+   21                    <FlashDriverDll></FlashDriverDll>
+   22                    <DeviceId>63604</DeviceId>
+   23                    <RegisterFile>STC32G.H</RegisterFile>
+   24                    <MemoryEnv></MemoryEnv>
+   25                    <Cmp></Cmp>
+   26                    <Asm></Asm>
+   27                    <Linker></Linker>
+   28                    <OHString></OHString>
+   29                    <InfinionOptionDll></InfinionOptionDll>
+   30                    <SLE66CMisc></SLE66CMisc>
+   31                    <SLE66AMisc></SLE66AMisc>
+   32                    <SLE66LinkerMisc></SLE66LinkerMisc>
+   33                    <SFDFile></SFDFile>
+   34                    <bCustSvd>0</bCustSvd>
+   35                    <UseEnv>0</UseEnv>
+C251 COMPILER V5.60.0,  SEEKFREE                                                           10/09/24  01:11:01  PAGE 2   
+
+   36                    <BinPath></BinPath>
+   37                    <IncludePath></IncludePath>
+   38                    <LibPath></LibPath>
+   39                    <RegisterFilePath>STC\</RegisterFilePath>
+   40                    <DBRegisterFilePath>STC\</DBRegisterFilePath>
+   41                    <TargetStatus>
+   42                      <Error>0</Error>
+   43                      <ExitCodeStop>0</ExitCodeStop>
+   44                      <ButtonStop>0</ButtonStop>
+   45                      <NotGenerated>0</NotGenerated>
+   46                      <InvalidFlash>1</InvalidFlash>
+   47                    </TargetStatus>
+   48                    <OutputDirectory>.\Out_File\</OutputDirectory>
+   49                    <OutputName>SEEKFREE</OutputName>
+   50                    <CreateExecutable>1</CreateExecutable>
+   51                    <CreateLib>0</CreateLib>
+   52                    <CreateHexFile>1</CreateHexFile>
+   53                    <DebugInformation>1</DebugInformation>
+   54                    <BrowseInformation>1</BrowseInformation>
+   55                    <ListingPath>.\Out_File\</ListingPath>
+   56                    <HexFormatSelection>1</HexFormatSelection>
+   57                    <Merge32K>0</Merge32K>
+   58                    <CreateBatchFile>0</CreateBatchFile>
+   59                    <BeforeCompile>
+   60                      <RunUserProg1>0</RunUserProg1>
+   61                      <RunUserProg2>0</RunUserProg2>
+   62                      <UserProg1Name></UserProg1Name>
+   63                      <UserProg2Name></UserProg2Name>
+   64                      <UserProg1Dos16Mode>0</UserProg1Dos16Mode>
+   65                      <UserProg2Dos16Mode>0</UserProg2Dos16Mode>
+   66                      <nStopU1X>0</nStopU1X>
+   67                      <nStopU2X>0</nStopU2X>
+   68                    </BeforeCompile>
+   69                    <BeforeMake>
+   70                      <RunUserProg1>0</RunUserProg1>
+   71                      <RunUserProg2>0</RunUserProg2>
+   72                      <UserProg1Name></UserProg1Name>
+   73                      <UserProg2Name></UserProg2Name>
+   74                      <UserProg1Dos16Mode>0</UserProg1Dos16Mode>
+   75                      <UserProg2Dos16Mode>0</UserProg2Dos16Mode>
+   76                      <nStopB1X>0</nStopB1X>
+   77                      <nStopB2X>0</nStopB2X>
+   78                    </BeforeMake>
+   79                    <AfterMake>
+   80                      <RunUserProg1>0</RunUserProg1>
+   81                      <RunUserProg2>0</RunUserProg2>
+   82                      <UserProg1Name></UserProg1Name>
+   83                      <UserProg2Name></UserProg2Name>
+   84                      <UserProg1Dos16Mode>0</UserProg1Dos16Mode>
+   85                      <UserProg2Dos16Mode>0</UserProg2Dos16Mode>
+   86                      <nStopA1X>0</nStopA1X>
+   87                      <nStopA2X>0</nStopA2X>
+   88                    </AfterMake>
+   89                    <SelectedForBatchBuild>0</SelectedForBatchBuild>
+   90                    <SVCSIdString></SVCSIdString>
+   91                  </TargetCommonOption>
+   92                  <CommonProperty>
+   93                    <UseCPPCompiler>0</UseCPPCompiler>
+   94                    <RVCTCodeConst>0</RVCTCodeConst>
+   95                    <RVCTZI>0</RVCTZI>
+   96                    <RVCTOtherData>0</RVCTOtherData>
+   97                    <ModuleSelection>0</ModuleSelection>
+   98                    <IncludeInBuild>1</IncludeInBuild>
+   99                    <AlwaysBuild>0</AlwaysBuild>
+  100                    <GenerateAssemblyFile>0</GenerateAssemblyFile>
+  101                    <AssembleAssemblyFile>0</AssembleAssemblyFile>
+C251 COMPILER V5.60.0,  SEEKFREE                                                           10/09/24  01:11:01  PAGE 3   
+
+  102                    <PublicsOnly>0</PublicsOnly>
+  103                    <StopOnExitCode>3</StopOnExitCode>
+  104                    <CustomArgument></CustomArgument>
+  105                    <IncludeLibraryModules></IncludeLibraryModules>
+  106                    <ComprImg>1</ComprImg>
+  107                    <BankNo>65535</BankNo>
+  108                  </CommonProperty>
+  109                  <DllOption>
+  110                    <SimDllName>S251.DLL</SimDllName>
+  111                    <SimDllArguments></SimDllArguments>
+  112                    <SimDlgDll>DCORE51.DLL</SimDlgDll>
+  113                    <SimDlgDllArguments>-p251</SimDlgDllArguments>
+  114                    <TargetDllName>S251.DLL</TargetDllName>
+  115                    <TargetDllArguments></TargetDllArguments>
+  116                    <TargetDlgDll>TCORE51.DLL</TargetDlgDll>
+  117                    <TargetDlgDllArguments>-p251</TargetDlgDllArguments>
+  118                  </DllOption>
+  119                  <DebugOption>
+  120                    <OPTHX>
+  121                      <HexSelection>1</HexSelection>
+  122                      <HexRangeLowAddress>0</HexRangeLowAddress>
+  123                      <HexRangeHighAddress>0</HexRangeHighAddress>
+  124                      <HexOffset>0</HexOffset>
+  125                      <Oh166RecLen>16</Oh166RecLen>
+  126                    </OPTHX>
+  127                    <Simulator>
+  128                      <UseSimulator>0</UseSimulator>
+  129                      <LoadApplicationAtStartup>1</LoadApplicationAtStartup>
+  130                      <RunToMain>1</RunToMain>
+  131                      <RestoreBreakpoints>1</RestoreBreakpoints>
+  132                      <RestoreWatchpoints>1</RestoreWatchpoints>
+  133                      <RestoreMemoryDisplay>1</RestoreMemoryDisplay>
+  134                      <RestoreFunctions>1</RestoreFunctions>
+  135                      <RestoreToolbox>1</RestoreToolbox>
+  136                      <LimitSpeedToRealTime>0</LimitSpeedToRealTime>
+  137                      <RestoreSysVw>1</RestoreSysVw>
+  138                    </Simulator>
+  139                    <Target>
+  140                      <UseTarget>1</UseTarget>
+  141                      <LoadApplicationAtStartup>1</LoadApplicationAtStartup>
+  142                      <RunToMain>0</RunToMain>
+  143                      <RestoreBreakpoints>1</RestoreBreakpoints>
+  144                      <RestoreWatchpoints>1</RestoreWatchpoints>
+  145                      <RestoreMemoryDisplay>1</RestoreMemoryDisplay>
+  146                      <RestoreFunctions>0</RestoreFunctions>
+  147                      <RestoreToolbox>1</RestoreToolbox>
+  148                      <RestoreTracepoints>1</RestoreTracepoints>
+  149                      <RestoreSysVw>1</RestoreSysVw>
+  150                    </Target>
+  151                    <RunDebugAfterBuild>0</RunDebugAfterBuild>
+  152                    <TargetSelection>0</TargetSelection>
+  153                    <SimDlls>
+  154                      <CpuDll></CpuDll>
+  155                      <CpuDllArguments></CpuDllArguments>
+  156                      <PeripheralDll></PeripheralDll>
+  157                      <PeripheralDllArguments></PeripheralDllArguments>
+  158                      <InitializationFile></InitializationFile>
+  159                    </SimDlls>
+  160                    <TargetDlls>
+  161                      <CpuDll></CpuDll>
+  162                      <CpuDllArguments></CpuDllArguments>
+  163                      <PeripheralDll></PeripheralDll>
+  164                      <PeripheralDllArguments></PeripheralDllArguments>
+  165                      <InitializationFile></InitializationFile>
+  166                      <Driver>BIN\MON251.DLL</Driver>
+  167                    </TargetDlls>
+C251 COMPILER V5.60.0,  SEEKFREE                                                           10/09/24  01:11:01  PAGE 4   
+
+  168                  </DebugOption>
+  169                  <Utilities>
+  170                    <Flash1>
+  171                      <UseTargetDll>0</UseTargetDll>
+  172                      <UseExternalTool>0</UseExternalTool>
+  173                      <RunIndependent>0</RunIndependent>
+  174                      <UpdateFlashBeforeDebugging>0</UpdateFlashBeforeDebugging>
+  175                      <Capability>0</Capability>
+  176                      <DriverSelection>-1</DriverSelection>
+  177                    </Flash1>
+  178                    <bUseTDR>0</bUseTDR>
+  179                    <Flash2></Flash2>
+  180                    <Flash3></Flash3>
+  181                    <Flash4></Flash4>
+  182                    <pFcarmOut></pFcarmOut>
+  183                    <pFcarmGrp></pFcarmGrp>
+  184                    <pFcArmRoot></pFcArmRoot>
+  185                    <FcArmLst>0</FcArmLst>
+  186                  </Utilities>
+  187                  <Target251>
+  188                    <Target251Misc>
+  189                      <MemoryModel>3</MemoryModel>
+  190                      <RTOS>0</RTOS>
+  191                      <RomSize>3</RomSize>
+  192                      <NearDataHold>0</NearDataHold>
+  193                      <XDataHold>0</XDataHold>
+  194                      <FarDataHold>0</FarDataHold>
+  195                      <uocRom>0</uocRom>
+  196                      <uocXRAM>0</uocXRAM>
+  197                      <uSrcBin>1</uSrcBin>
+  198                      <uFrame4>1</uFrame4>
+  199                      <hadIRAM>1</hadIRAM>
+  200                      <hadXRAM>1</hadXRAM>
+  201                      <hadIROM>1</hadIROM>
+  202                      <Use_Code_Banking>0</Use_Code_Banking>
+  203                      <uCC7>0</uCC7>
+  204                      <fp_hp>0</fp_hp>
+  205                      <CBANKS2>0</CBANKS2>
+  206                      <OnChipMemories>
+  207                        <RCB>
+  208                          <Type>0</Type>
+  209                          <StartAddress>0x0</StartAddress>
+  210                          <Size>0x10000</Size>
+  211                        </RCB>
+  212                        <IROM>
+  213                          <Type>1</Type>
+  214                          <StartAddress>0xff0000</StartAddress>
+  215                          <Size>0x10000</Size>
+  216                        </IROM>
+  217                        <IRAM>
+  218                          <Type>0</Type>
+  219                          <StartAddress>0x0</StartAddress>
+  220                          <Size>0x2000</Size>
+  221                        </IRAM>
+  222                        <XRAM>
+  223                          <Type>0</Type>
+  224                          <StartAddress>0x10000</StartAddress>
+  225                          <Size>0x1000</Size>
+  226                        </XRAM>
+  227                        <Ocm1>
+  228                          <Type>0</Type>
+  229                          <StartAddress>0x0</StartAddress>
+  230                          <Size>0x0</Size>
+  231                        </Ocm1>
+  232                        <Ocm2>
+  233                          <Type>0</Type>
+C251 COMPILER V5.60.0,  SEEKFREE                                                           10/09/24  01:11:01  PAGE 5   
+
+  234                          <StartAddress>0x0</StartAddress>
+  235                          <Size>0x0</Size>
+  236                        </Ocm2>
+  237                        <Ocm3>
+  238                          <Type>0</Type>
+  239                          <StartAddress>0x0</StartAddress>
+  240                          <Size>0x0</Size>
+  241                        </Ocm3>
+  242                        <Ocm4>
+  243                          <Type>0</Type>
+  244                          <StartAddress>0x0</StartAddress>
+  245                          <Size>0x0</Size>
+  246                        </Ocm4>
+  247                        <Ocm5>
+  248                          <Type>0</Type>
+  249                          <StartAddress>0x0</StartAddress>
+  250                          <Size>0x0</Size>
+  251                        </Ocm5>
+  252                        <Ocm6>
+  253                          <Type>0</Type>
+  254                          <StartAddress>0x0</StartAddress>
+  255                          <Size>0x0</Size>
+  256                        </Ocm6>
+  257                      </OnChipMemories>
+  258                    </Target251Misc>
+  259                    <C251>
+  260                      <RegColor>0</RegColor>
+  261                      <uOrder>0</uOrder>
+  262                      <uAlias>1</uAlias>
+  263                      <uRentF>0</uRentF>
+  264                      <uUch>0</uUch>
+  265                      <uFlt64>0</uFlt64>
+  266                      <Fuzzy>3</Fuzzy>
+  267                      <Optim>0</Optim>
+  268                      <wLevel>3</wLevel>
+  269                      <SizSpd>1</SizSpd>
+  270                      <AcaOpt>0</AcaOpt>
+  271                      <VariousControls>
+  272                        <MiscControls></MiscControls>
+  273                        <Define></Define>
+  274                        <Undefine></Undefine>
+  275                        <IncludePath>..\..\Libraries\libraries;..\..\Libraries\seekfree_libraries;..\..\Libraries\s
+             -eekfree_peripheral;..\CODE;..\USER\inc;..\USER\src;..\..\Libraries\seekfree_components</IncludePath>
+  276                      </VariousControls>
+  277                    </C251>
+  278                    <Ax51>
+  279                      <UseMpl>0</UseMpl>
+  280                      <UseStandard>1</UseStandard>
+  281                      <UseCase>0</UseCase>
+  282                      <UseMod51>0</UseMod51>
+  283                      <VariousControls>
+  284                        <MiscControls></MiscControls>
+  285                        <Define></Define>
+  286                        <Undefine></Undefine>
+  287                        <IncludePath></IncludePath>
+  288                      </VariousControls>
+  289                    </Ax51>
+  290                    <Lx51>
+  291                      <useFile>0</useFile>
+  292                      <linkonly>0</linkonly>
+  293                      <UseMemoryFromTarget>1</UseMemoryFromTarget>
+  294                      <CaseSensitiveSymbols>1</CaseSensitiveSymbols>
+  295                      <WarningLevel>2</WarningLevel>
+  296                      <DataOverlaying>1</DataOverlaying>
+  297                      <OverlayString></OverlayString>
+  298                      <MiscControls>REMOVEUNUSED</MiscControls>
+C251 COMPILER V5.60.0,  SEEKFREE                                                           10/09/24  01:11:01  PAGE 6   
+
+  299                      <DisableWarningNumbers>16,57</DisableWarningNumbers>
+  300                      <LinkerCmdFile></LinkerCmdFile>
+  301                      <Assign></Assign>
+  302                      <ReserveString></ReserveString>
+  303                      <CClasses></CClasses>
+  304                      <UserClasses></UserClasses>
+  305                      <CSection></CSection>
+  306                      <UserSection></UserSection>
+  307                      <CodeBaseAddress></CodeBaseAddress>
+  308                      <XDataBaseAddress></XDataBaseAddress>
+  309                      <PDataBaseAddress></PDataBaseAddress>
+  310                      <BitBaseAddress></BitBaseAddress>
+  311                      <DataBaseAddress></DataBaseAddress>
+  312                      <IDataBaseAddress></IDataBaseAddress>
+  313                      <Precede></Precede>
+  314                      <Stack></Stack>
+  315                      <CodeSegmentName></CodeSegmentName>
+  316                      <XDataSegmentName></XDataSegmentName>
+  317                      <BitSegmentName></BitSegmentName>
+  318                      <DataSegmentName></DataSegmentName>
+  319                      <IDataSegmentName></IDataSegmentName>
+  320                    </Lx51>
+  321                  </Target251>
+  322                </TargetOption>
+  323                <Groups>
+  324                  <Group>
+  325                    <GroupName>startup</GroupName>
+  326                    <Files>
+  327                      <File>
+  328                        <FileName>board.c</FileName>
+  329                        <FileType>1</FileType>
+  330                        <FilePath>..\..\Libraries\libraries\board.c</FilePath>
+  331                      </File>
+  332                      <File>
+  333                        <FileName>board.h</FileName>
+  334                        <FileType>5</FileType>
+  335                        <FilePath>..\..\Libraries\libraries\board.h</FilePath>
+  336                      </File>
+  337                      <File>
+  338                        <FileName>common.c</FileName>
+  339                        <FileType>1</FileType>
+  340                        <FilePath>..\..\Libraries\libraries\common.c</FilePath>
+  341                      </File>
+  342                      <File>
+  343                        <FileName>common.h</FileName>
+  344                        <FileType>5</FileType>
+  345                        <FilePath>..\..\Libraries\libraries\common.h</FilePath>
+  346                      </File>
+  347                      <File>
+  348                        <FileName>STC32Gxx.h</FileName>
+  349                        <FileType>5</FileType>
+  350                        <FilePath>..\..\Libraries\libraries\STC32Gxx.h</FilePath>
+  351                      </File>
+  352                      <File>
+  353                        <FileName>STC32_FPMU_LARGE_V1.0.LIB</FileName>
+  354                        <FileType>4</FileType>
+  355                        <FilePath>..\..\Libraries\libraries\STC32_FPMU_LARGE_V1.0.LIB</FilePath>
+  356                        <FileOption>
+  357                          <CommonProperty>
+  358                            <UseCPPCompiler>2</UseCPPCompiler>
+  359                            <RVCTCodeConst>0</RVCTCodeConst>
+  360                            <RVCTZI>0</RVCTZI>
+  361                            <RVCTOtherData>0</RVCTOtherData>
+  362                            <ModuleSelection>0</ModuleSelection>
+  363                            <IncludeInBuild>1</IncludeInBuild>
+  364                            <AlwaysBuild>2</AlwaysBuild>
+C251 COMPILER V5.60.0,  SEEKFREE                                                           10/09/24  01:11:01  PAGE 7   
+
+  365                            <GenerateAssemblyFile>2</GenerateAssemblyFile>
+  366                            <AssembleAssemblyFile>2</AssembleAssemblyFile>
+  367                            <PublicsOnly>2</PublicsOnly>
+  368                            <StopOnExitCode>11</StopOnExitCode>
+  369                            <CustomArgument></CustomArgument>
+  370                            <IncludeLibraryModules>STC32F_FPMU</IncludeLibraryModules>
+  371                            <ComprImg>1</ComprImg>
+  372                            <BankNo>65535</BankNo>
+  373                          </CommonProperty>
+  374                          <File251/>
+  375                        </FileOption>
+  376                      </File>
+  377                    </Files>
+  378                  </Group>
+  379                  <Group>
+  380                    <GroupName>seekfree_libraries</GroupName>
+  381                    <Files>
+  382                      <File>
+  383                        <FileName>headfile.h</FileName>
+  384                        <FileType>5</FileType>
+  385                        <FilePath>..\..\Libraries\seekfree_peripheral\headfile.h</FilePath>
+  386                      </File>
+  387                      <File>
+  388                        <FileName>zf_adc.c</FileName>
+  389                        <FileType>1</FileType>
+  390                        <FilePath>..\..\Libraries\seekfree_libraries\zf_adc.c</FilePath>
+  391                      </File>
+  392                      <File>
+  393                        <FileName>zf_adc.h</FileName>
+  394                        <FileType>5</FileType>
+  395                        <FilePath>..\..\Libraries\seekfree_libraries\zf_adc.h</FilePath>
+  396                      </File>
+  397                      <File>
+  398                        <FileName>zf_delay.c</FileName>
+  399                        <FileType>1</FileType>
+  400                        <FilePath>..\..\Libraries\seekfree_libraries\zf_delay.c</FilePath>
+  401                      </File>
+  402                      <File>
+  403                        <FileName>zf_delay.h</FileName>
+  404                        <FileType>5</FileType>
+  405                        <FilePath>..\..\Libraries\seekfree_libraries\zf_delay.h</FilePath>
+  406                      </File>
+  407                      <File>
+  408                        <FileName>zf_eeprom.c</FileName>
+  409                        <FileType>1</FileType>
+  410                        <FilePath>..\..\Libraries\seekfree_libraries\zf_eeprom.c</FilePath>
+  411                      </File>
+  412                      <File>
+  413                        <FileName>zf_eeprom.h</FileName>
+  414                        <FileType>5</FileType>
+  415                        <FilePath>..\..\Libraries\seekfree_libraries\zf_eeprom.h</FilePath>
+  416                      </File>
+  417                      <File>
+  418                        <FileName>zf_exti.c</FileName>
+  419                        <FileType>1</FileType>
+  420                        <FilePath>..\..\Libraries\seekfree_libraries\zf_exti.c</FilePath>
+  421                      </File>
+  422                      <File>
+  423                        <FileName>zf_exti.h</FileName>
+  424                        <FileType>5</FileType>
+  425                        <FilePath>..\..\Libraries\seekfree_libraries\zf_exti.h</FilePath>
+  426                      </File>
+  427                      <File>
+  428                        <FileName>zf_gpio.c</FileName>
+  429                        <FileType>1</FileType>
+  430                        <FilePath>..\..\Libraries\seekfree_libraries\zf_gpio.c</FilePath>
+C251 COMPILER V5.60.0,  SEEKFREE                                                           10/09/24  01:11:01  PAGE 8   
+
+  431                      </File>
+  432                      <File>
+  433                        <FileName>zf_gpio.h</FileName>
+  434                        <FileType>5</FileType>
+  435                        <FilePath>..\..\Libraries\seekfree_libraries\zf_gpio.h</FilePath>
+  436                      </File>
+  437                      <File>
+  438                        <FileName>zf_iic.c</FileName>
+  439                        <FileType>1</FileType>
+  440                        <FilePath>..\..\Libraries\seekfree_libraries\zf_iic.c</FilePath>
+  441                      </File>
+  442                      <File>
+  443                        <FileName>zf_iic.h</FileName>
+  444                        <FileType>5</FileType>
+  445                        <FilePath>..\..\Libraries\seekfree_libraries\zf_iic.h</FilePath>
+  446                      </File>
+  447                      <File>
+  448                        <FileName>zf_nvic.c</FileName>
+  449                        <FileType>1</FileType>
+  450                        <FilePath>..\..\Libraries\seekfree_libraries\zf_nvic.c</FilePath>
+  451                      </File>
+  452                      <File>
+  453                        <FileName>zf_nvic.h</FileName>
+  454                        <FileType>5</FileType>
+  455                        <FilePath>..\..\Libraries\seekfree_libraries\zf_nvic.h</FilePath>
+  456                      </File>
+  457                      <File>
+  458                        <FileName>zf_pwm.c</FileName>
+  459                        <FileType>1</FileType>
+  460                        <FilePath>..\..\Libraries\seekfree_libraries\zf_pwm.c</FilePath>
+  461                      </File>
+  462                      <File>
+  463                        <FileName>zf_pwm.h</FileName>
+  464                        <FileType>5</FileType>
+  465                        <FilePath>..\..\Libraries\seekfree_libraries\zf_pwm.h</FilePath>
+  466                      </File>
+  467                      <File>
+  468                        <FileName>zf_spi.c</FileName>
+  469                        <FileType>1</FileType>
+  470                        <FilePath>..\..\Libraries\seekfree_libraries\zf_spi.c</FilePath>
+  471                      </File>
+  472                      <File>
+  473                        <FileName>zf_spi.h</FileName>
+  474                        <FileType>5</FileType>
+  475                        <FilePath>..\..\Libraries\seekfree_libraries\zf_spi.h</FilePath>
+  476                      </File>
+  477                      <File>
+  478                        <FileName>zf_tim.c</FileName>
+  479                        <FileType>1</FileType>
+  480                        <FilePath>..\..\Libraries\seekfree_libraries\zf_tim.c</FilePath>
+  481                      </File>
+  482                      <File>
+  483                        <FileName>zf_tim.h</FileName>
+  484                        <FileType>5</FileType>
+  485                        <FilePath>..\..\Libraries\seekfree_libraries\zf_tim.h</FilePath>
+  486                      </File>
+  487                      <File>
+  488                        <FileName>zf_uart.c</FileName>
+  489                        <FileType>1</FileType>
+  490                        <FilePath>..\..\Libraries\seekfree_libraries\zf_uart.c</FilePath>
+  491                      </File>
+  492                      <File>
+  493                        <FileName>zf_uart.h</FileName>
+  494                        <FileType>5</FileType>
+  495                        <FilePath>..\..\Libraries\seekfree_libraries\zf_uart.h</FilePath>
+  496                      </File>
+C251 COMPILER V5.60.0,  SEEKFREE                                                           10/09/24  01:11:01  PAGE 9   
+
+  497                      <File>
+  498                        <FileName>zf_fifo.c</FileName>
+  499                        <FileType>1</FileType>
+  500                        <FilePath>..\..\Libraries\seekfree_libraries\zf_fifo.c</FilePath>
+  501                      </File>
+  502                      <File>
+  503                        <FileName>zf_fifo.h</FileName>
+  504                        <FileType>5</FileType>
+  505                        <FilePath>..\..\Libraries\seekfree_libraries\zf_fifo.h</FilePath>
+  506                      </File>
+  507                    </Files>
+  508                  </Group>
+  509                  <Group>
+  510                    <GroupName>seekfree_peripheral</GroupName>
+  511                    <Files>
+  512                      <File>
+  513                        <FileName>headfile.h</FileName>
+  514                        <FileType>5</FileType>
+  515                        <FilePath>..\..\Libraries\seekfree_peripheral\headfile.h</FilePath>
+  516                      </File>
+  517                      <File>
+  518                        <FileName>SEEKFREE_18TFT.c</FileName>
+  519                        <FileType>1</FileType>
+  520                        <FilePath>..\..\Libraries\seekfree_peripheral\SEEKFREE_18TFT.c</FilePath>
+  521                      </File>
+  522                      <File>
+  523                        <FileName>SEEKFREE_18TFT.h</FileName>
+  524                        <FileType>5</FileType>
+  525                        <FilePath>..\..\Libraries\seekfree_peripheral\SEEKFREE_18TFT.h</FilePath>
+  526                      </File>
+  527                      <File>
+  528                        <FileName>SEEKFREE_CONFIG.LIB</FileName>
+  529                        <FileType>4</FileType>
+  530                        <FilePath>..\..\Libraries\seekfree_peripheral\SEEKFREE_CONFIG.LIB</FilePath>
+  531                      </File>
+  532                      <File>
+  533                        <FileName>SEEKFREE_CONFIG.h</FileName>
+  534                        <FileType>5</FileType>
+  535                        <FilePath>..\..\Libraries\seekfree_peripheral\SEEKFREE_CONFIG.h</FilePath>
+  536                      </File>
+  537                      <File>
+  538                        <FileName>SEEKFREE_DL1B.c</FileName>
+  539                        <FileType>1</FileType>
+  540                        <FilePath>..\..\Libraries\seekfree_peripheral\SEEKFREE_DL1B.c</FilePath>
+  541                      </File>
+  542                      <File>
+  543                        <FileName>SEEKFREE_DL1B.h</FileName>
+  544                        <FileType>5</FileType>
+  545                        <FilePath>..\..\Libraries\seekfree_peripheral\SEEKFREE_DL1B.h</FilePath>
+  546                      </File>
+  547                      <File>
+  548                        <FileName>SEEKFREE_FONT.c</FileName>
+  549                        <FileType>1</FileType>
+  550                        <FilePath>..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.c</FilePath>
+  551                      </File>
+  552                      <File>
+  553                        <FileName>SEEKFREE_FONT.h</FileName>
+  554                        <FileType>5</FileType>
+  555                        <FilePath>..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h</FilePath>
+  556                      </File>
+  557                      <File>
+  558                        <FileName>SEEKFREE_FUNCTION.c</FileName>
+  559                        <FileType>1</FileType>
+  560                        <FilePath>..\..\Libraries\seekfree_peripheral\SEEKFREE_FUNCTION.c</FilePath>
+  561                      </File>
+  562                      <File>
+C251 COMPILER V5.60.0,  SEEKFREE                                                           10/09/24  01:11:01  PAGE 10  
+
+  563                        <FileName>SEEKFREE_FUNCTION.h</FileName>
+  564                        <FileType>5</FileType>
+  565                        <FilePath>..\..\Libraries\seekfree_peripheral\SEEKFREE_FUNCTION.h</FilePath>
+  566                      </File>
+  567                      <File>
+  568                        <FileName>SEEKFREE_ICM20602.c</FileName>
+  569                        <FileType>1</FileType>
+  570                        <FilePath>..\..\Libraries\seekfree_peripheral\SEEKFREE_ICM20602.c</FilePath>
+  571                      </File>
+  572                      <File>
+  573                        <FileName>SEEKFREE_ICM20602.h</FileName>
+  574                        <FileType>5</FileType>
+  575                        <FilePath>..\..\Libraries\seekfree_peripheral\SEEKFREE_ICM20602.h</FilePath>
+  576                      </File>
+  577                      <File>
+  578                        <FileName>SEEKFREE_OLED.c</FileName>
+  579                        <FileType>1</FileType>
+  580                        <FilePath>..\..\Libraries\seekfree_peripheral\SEEKFREE_OLED.c</FilePath>
+  581                      </File>
+  582                      <File>
+  583                        <FileName>SEEKFREE_OLED.h</FileName>
+  584                        <FileType>5</FileType>
+  585                        <FilePath>..\..\Libraries\seekfree_peripheral\SEEKFREE_OLED.h</FilePath>
+  586                      </File>
+  587                      <File>
+  588                        <FileName>SEEKFREE_VIRSCO.c</FileName>
+  589                        <FileType>1</FileType>
+  590                        <FilePath>..\..\Libraries\seekfree_peripheral\SEEKFREE_VIRSCO.c</FilePath>
+  591                      </File>
+  592                      <File>
+  593                        <FileName>SEEKFREE_VIRSCO.h</FileName>
+  594                        <FileType>5</FileType>
+  595                        <FilePath>..\..\Libraries\seekfree_peripheral\SEEKFREE_VIRSCO.h</FilePath>
+  596                      </File>
+  597                      <File>
+  598                        <FileName>SEEKFREE_WIRELESS.c</FileName>
+  599                        <FileType>1</FileType>
+  600                        <FilePath>..\..\Libraries\seekfree_peripheral\SEEKFREE_WIRELESS.c</FilePath>
+  601                      </File>
+  602                      <File>
+  603                        <FileName>SEEKFREE_WIRELESS.h</FileName>
+  604                        <FileType>5</FileType>
+  605                        <FilePath>..\..\Libraries\seekfree_peripheral\SEEKFREE_WIRELESS.h</FilePath>
+  606                      </File>
+  607                    </Files>
+  608                  </Group>
+  609                  <Group>
+  610                    <GroupName>doc</GroupName>
+  611                    <Files>
+  612                      <File>
+  613                        <FileName>version.txt</FileName>
+  614                        <FileType>5</FileType>
+  615                        <FilePath>..\..\Libraries\doc\version.txt</FilePath>
+  616                      </File>
+  617                    </Files>
+  618                  </Group>
+  619                  <Group>
+  620                    <GroupName>user_c</GroupName>
+  621                    <Files>
+  622                      <File>
+  623                        <FileName>isr.c</FileName>
+  624                        <FileType>1</FileType>
+  625                        <FilePath>..\USER\src\isr.c</FilePath>
+  626                      </File>
+  627                      <File>
+  628                        <FileName>main.c</FileName>
+C251 COMPILER V5.60.0,  SEEKFREE                                                           10/09/24  01:11:01  PAGE 11  
+
+  629                        <FileType>1</FileType>
+  630                        <FilePath>..\USER\src\main.c</FilePath>
+  631                      </File>
+  632                    </Files>
+  633                  </Group>
+  634                  <Group>
+  635                    <GroupName>user_h</GroupName>
+  636                    <Files>
+  637                      <File>
+  638                        <FileName>isr.h</FileName>
+  639                        <FileType>5</FileType>
+  640                        <FilePath>..\USER\inc\isr.h</FilePath>
+  641                      </File>
+  642                    </Files>
+  643                  </Group>
+  644                  <Group>
+  645                    <GroupName>seekfree_components</GroupName>
+  646                    <Files>
+  647                      <File>
+  648                        <FileName>seekfree_assistant.c</FileName>
+  649                        <FileType>1</FileType>
+  650                        <FilePath>..\..\Libraries\seekfree_components\seekfree_assistant.c</FilePath>
+  651                      </File>
+  652                      <File>
+  653                        <FileName>seekfree_assistant.h</FileName>
+  654                        <FileType>5</FileType>
+  655                        <FilePath>..\..\Libraries\seekfree_components\seekfree_assistant.h</FilePath>
+  656                      </File>
+  657                      <File>
+  658                        <FileName>seekfree_assistant_inface.c</FileName>
+  659                        <FileType>1</FileType>
+  660                        <FilePath>..\..\Libraries\seekfree_components\seekfree_assistant_inface.c</FilePath>
+  661                      </File>
+  662                    </Files>
+  663                  </Group>
+  664                  <Group>
+  665                    <GroupName>code</GroupName>
+  666                    <Files>
+  667                      <File>
+  668                        <FileName>adc.c</FileName>
+  669                        <FileType>1</FileType>
+  670                        <FilePath>.\adc.c</FilePath>
+  671                      </File>
+  672                      <File>
+  673                        <FileName>adc.h</FileName>
+  674                        <FileType>5</FileType>
+  675                        <FilePath>.\adc.h</FilePath>
+  676                      </File>
+  677                      <File>
+  678                        <FileName>control.c</FileName>
+  679                        <FileType>1</FileType>
+  680                        <FilePath>.\control.c</FilePath>
+  681                      </File>
+  682                      <File>
+  683                        <FileName>control.h</FileName>
+  684                        <FileType>5</FileType>
+  685                        <FilePath>.\control.h</FilePath>
+  686                      </File>
+  687                      <File>
+  688                        <FileName>encoder.c</FileName>
+  689                        <FileType>1</FileType>
+  690                        <FilePath>.\encoder.c</FilePath>
+  691                      </File>
+  692                      <File>
+  693                        <FileName>encoder.h</FileName>
+  694                        <FileType>5</FileType>
+C251 COMPILER V5.60.0,  SEEKFREE                                                           10/09/24  01:11:01  PAGE 12  
+
+  695                        <FilePath>.\encoder.h</FilePath>
+  696                      </File>
+  697                      <File>
+  698                        <FileName>pid.c</FileName>
+  699                        <FileType>1</FileType>
+  700                        <FilePath>.\pid.c</FilePath>
+  701                      </File>
+  702                      <File>
+  703                        <FileName>pid.h</FileName>
+  704                        <FileType>5</FileType>
+  705                        <FilePath>.\pid.h</FilePath>
+  706                      </File>
+  707                      <File>
+  708                        <FileName>smooth.c</FileName>
+  709                        <FileType>1</FileType>
+  710                        <FilePath>.\smooth.c</FilePath>
+  711                      </File>
+  712                      <File>
+  713                        <FileName>smooth.h</FileName>
+  714                        <FileType>5</FileType>
+  715                        <FilePath>.\smooth.h</FilePath>
+  716                      </File>
+  717                      <File>
+  718                        <FileName>sb.c</FileName>
+  719                        <FileType>1</FileType>
+  720                        <FilePath>.\sb.c</FilePath>
+  721                      </File>
+  722                      <File>
+  723                        <FileName>sb.h</FileName>
+  724                        <FileType>5</FileType>
+  725                        <FilePath>.\sb.h</FilePath>
+  726                      </File>
+  727                    </Files>
+  728                  </Group>
+  729                </Groups>
+  730              </Target>
+  731            </Targets>
+  732          
+  733          </Project>
+*** ERROR C7 IN LINE 733 OF D:\study\smartcar\重构代码\STC32F_Sou1B00ster\STC32F-master\Seekfree_STC32F12K_Opensourc
+             -e_Library\Project\MDK\SEEKFREE.uvproj: compilation aborted
+
+C251 COMPILATION COMPLETE.  1 WARNING(S),  11 ERROR(S)
